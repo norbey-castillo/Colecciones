@@ -20,8 +20,7 @@ public class Agenda {
 	}
 
 	public Contacto buscarPorNombre(String nombre) {
-		// TODO: reemplazar esta línea por contactos.get(nombre).
-		throw new UnsupportedOperationException("TODO: completar buscarPorNombre() en Agenda");
+		return contactos.get(nombre);
 	}
 
 	public int totalContactos() {
